@@ -5,7 +5,7 @@ var Word = require('./word.js');
 
 function newGame() {
 
-    var word = new Word("");
+    var word = new Word("Warriors");
     word.display();
     userGuess(word);
 
@@ -34,7 +34,7 @@ function userGuess(word){
         //     }
         //   }
         }]).then(function(guess){
-           console.log(guess.letter);
+           //console.log(guess.letter);
 		word.checkLetter(guess.letter);
         word.display();
         userGuess(word);
