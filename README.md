@@ -1,4 +1,4 @@
-# constructor-word-guess
+# Constructor-Word-Guess
 
 This game uses constructors and two required files. It's a command line game that has you guess letters to randomly-selected hidden words.
 
@@ -24,6 +24,7 @@ index.js: The file containing the logic for the course of the game, which depend
 
 # Technologies used
 -Node.js (https://nodejs.org/en/)
+
 -Javascript constructor functions
 
 
